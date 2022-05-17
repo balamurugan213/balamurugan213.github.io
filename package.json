@@ -1,4 +1,5 @@
 {
+  "homepage": "http://balamurugan213.github.io/balamurugan213.github.io",
   "name": "balamurugan",
   "version": "0.1.0",
   "private": true,
@@ -8,10 +9,16 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-responsive": "^9.0.0-beta.8",
     "react-scripts": "5.0.1",
+    "three": "^0.121.0",
+    "typed.js": "^2.0.12",
+    "vanta": "^0.5.22",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
